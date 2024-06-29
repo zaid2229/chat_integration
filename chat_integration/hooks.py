@@ -227,3 +227,6 @@ app_license = "mit"
 #	"Logging DocType Name": 30  # days to retain logs
 # }
 
+webhooks = [
+    {"method": "POST", "route": "api/method/chat_integration.webhook.receive_message"}
+]
